@@ -1,4 +1,4 @@
-23689004979126556
+23683773901920500
 AESIR LOGO
 AESIR LOGO
 
@@ -563,13 +563,6 @@ Button_Switch_Keyboard
 SW_Matias_ISOEnter
 Matias/ALPS keyswitch, ISO Enter, http://matias.ca/switches/
 Matias ALPS keyswitch ISO enter
-0
-2
-2
-Button_Switch_SMD
-CharliesButton
-http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
-SMD SMT button
 0
 2
 2
@@ -78771,13 +78764,6 @@ Sanyo SIP-15
 15
 15
 Package_SO
-Custom_PMOS_bajs_TSOP-6_1.65x3.05mm_P0.95mm
-TSOP-6 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf
-Jedec MO-193C TSOP-6L
-0
-6
-3
-Package_SO
 Diodes_PSOP-8
 8-Lead Plastic PSOP, Exposed Die Pad (see https://www.diodes.com/assets/Datasheets/AP2204.pdf)
 SSOP 0.50 exposed pad
@@ -82354,13 +82340,6 @@ SOT-23
 0
 3
 3
-Package_TO_SOT_SMD
-SOT-23_SpecialNC_Schottky
-SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-3
-2
 Package_TO_SOT_SMD
 SOT-89-3
 SOT-89-3, http://ww1.microchip.com/downloads/en/DeviceDoc/3L_SOT-89_MB_C04-029C.pdf

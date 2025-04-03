@@ -12886,7 +12886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:CharliesButton"
+		(property "Footprint" "custom_footprints:CharliesButton"
 			(at 93.98 200.66 0)
 			(effects
 				(font
@@ -17788,7 +17788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_SpecialNC_Schottky"
+		(property "Footprint" "custom_footprints:SOT-23_SpecialNC_Schottky"
 			(at 279.4 33.02 0)
 			(effects
 				(font
@@ -17855,7 +17855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:CharliesButton"
+		(property "Footprint" "custom_footprints:CharliesButton"
 			(at 116.84 190.5 0)
 			(effects
 				(font
@@ -18941,7 +18941,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Custom_PMOS_bajs_TSOP-6_1.65x3.05mm_P0.95mm"
+		(property "Footprint" "custom_footprints:Custom_PMOS_bajs_TSOP-6_1.65x3.05mm_P0.95mm"
 			(at 195.58 27.94 0)
 			(effects
 				(font
@@ -19314,7 +19314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Custom_PMOS_bajs_TSOP-6_1.65x3.05mm_P0.95mm"
+		(property "Footprint" "custom_footprints:Custom_PMOS_bajs_TSOP-6_1.65x3.05mm_P0.95mm"
 			(at 162.56 27.94 0)
 			(effects
 				(font
@@ -20646,7 +20646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_SpecialNC_Schottky"
+		(property "Footprint" "custom_footprints:SOT-23_SpecialNC_Schottky"
 			(at 123.19 25.4 0)
 			(effects
 				(font
@@ -20786,7 +20786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_SpecialNC_Schottky"
+		(property "Footprint" "custom_footprints:SOT-23_SpecialNC_Schottky"
 			(at 128.27 38.1 0)
 			(effects
 				(font
