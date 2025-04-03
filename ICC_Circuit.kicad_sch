@@ -4793,7 +4793,6 @@
 					(alternate "AUDIOCLK" bidirectional line)
 					(alternate "OCTOSPIM_P2_NCS" bidirectional line)
 					(alternate "OPAMP1_VINP" bidirectional line)
-					(alternate "" input line)
 					(alternate "PWR_WKUP1" bidirectional line)
 					(alternate "SPI3_RDY" bidirectional line)
 					(alternate "TAMP_IN2" bidirectional line)
@@ -5496,7 +5495,6 @@
 					(alternate "" input line)
 					(alternate "DEBUG_JTMS-SWDIO" bidirectional line)
 					(alternate "IR_OUT" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI1_SD_B" bidirectional line)
 					(alternate "USB_OTG_FS_NOE" bidirectional line)
 				)
@@ -5558,7 +5556,6 @@
 					(alternate "I2C1_SMBA" bidirectional line)
 					(alternate "I2C4_SMBA" bidirectional line)
 					(alternate "LPTIM1_CH1" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI1_FS_B" bidirectional line)
 					(alternate "USB_OTG_FS_SOF" bidirectional line)
 				)
@@ -5617,7 +5614,6 @@
 					(alternate "DEBUG_JTDO-SWO" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "LPTIM1_CH1" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI1_SCK_B" bidirectional line)
 					(alternate "SPI1_SCK" bidirectional line)
 					(alternate "SPI3_SCK" bidirectional line)
@@ -5894,7 +5890,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "RCC_OSC_IN" bidirectional line)
 				)
 				(pin bidirectional line
@@ -5914,7 +5909,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "RCC_OSC_OUT" bidirectional line)
 				)
@@ -18947,7 +18941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:Custom_PMOS_bajs_TSOP-6_1.65x3.05mm_P0.95mm"
 			(at 195.58 27.94 0)
 			(effects
 				(font
