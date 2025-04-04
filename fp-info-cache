@@ -1,4 +1,4 @@
-23689004979128430
+23690748821585451
 AESIR LOGO
 AESIR LOGO
 
@@ -96750,6 +96750,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+custom_footprints
+0ZRP0400FF custom Fuse
+PTC Resettable Fuse, Ihold = 4.0A, Itrip=6.8A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
 0
 2
 2
