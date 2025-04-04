@@ -1,4 +1,4 @@
-23683773901920500
+23689004979128430
 AESIR LOGO
 AESIR LOGO
 
@@ -96752,6 +96752,27 @@ Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.
 Varistor VF
 0
 2
+2
+custom_footprints
+CharliesButton
+http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
+SMD SMT button
+0
+2
+2
+custom_footprints
+Custom_PMOS_bajs_TSOP-6_1.65x3.05mm_P0.95mm
+TSOP-6 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf
+Jedec MO-193C TSOP-6L
+0
+6
+3
+custom_footprints
+SOT-23_SpecialNC_Schottky
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
 2
 lmr50410
 SOT95P280X145-6N
