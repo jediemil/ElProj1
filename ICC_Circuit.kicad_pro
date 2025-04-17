@@ -7,7 +7,7 @@
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
-        "copper_line_width": 0.2,
+        "copper_line_width": 0.5,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -232,8 +232,36 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.9,
+          "diameter": 1.5,
           "drill": 0.7
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.7
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.7
+        },
+        {
+          "diameter": 1.5,
+          "drill": 1.8
+        },
+        {
+          "diameter": 1.8,
+          "drill": 1.0
+        },
+        {
+          "diameter": 1.8,
+          "drill": 1.0
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.1
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.1
         }
       ],
       "zones_allow_external_fillets": false
@@ -497,7 +525,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -520,10 +548,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "D:/Ligma/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ICC_Circuit.step",
       "svg": "",
       "vrml": ""
     },

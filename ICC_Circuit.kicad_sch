@@ -5987,6 +5987,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 					(alternate "RCC_OSC_IN" bidirectional line)
 				)
 				(pin bidirectional line
@@ -6006,6 +6007,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "" input line)
 					(alternate "RCC_OSC_OUT" bidirectional line)
 				)
@@ -6206,6 +6208,7 @@
 					(alternate "DEBUG_JTDO-SWO" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "LPTIM1_CH1" bidirectional line)
+					(alternate "" input line)
 					(alternate "SAI1_SCK_B" bidirectional line)
 					(alternate "SPI1_SCK" bidirectional line)
 					(alternate "SPI3_SCK" bidirectional line)
@@ -6736,6 +6739,7 @@
 					(alternate "AUDIOCLK" bidirectional line)
 					(alternate "OCTOSPIM_P2_NCS" bidirectional line)
 					(alternate "OPAMP1_VINP" bidirectional line)
+					(alternate "" input line)
 					(alternate "PWR_WKUP1" bidirectional line)
 					(alternate "SPI3_RDY" bidirectional line)
 					(alternate "TAMP_IN2" bidirectional line)
@@ -7107,6 +7111,7 @@
 					(alternate "" input line)
 					(alternate "DEBUG_JTMS-SWDIO" bidirectional line)
 					(alternate "IR_OUT" bidirectional line)
+					(alternate "" input line)
 					(alternate "SAI1_SD_B" bidirectional line)
 					(alternate "USB_OTG_FS_NOE" bidirectional line)
 				)
@@ -7132,6 +7137,7 @@
 					(alternate "I2C1_SMBA" bidirectional line)
 					(alternate "I2C4_SMBA" bidirectional line)
 					(alternate "LPTIM1_CH1" bidirectional line)
+					(alternate "" input line)
 					(alternate "SAI1_FS_B" bidirectional line)
 					(alternate "USB_OTG_FS_SOF" bidirectional line)
 				)
@@ -7165,6 +7171,113 @@
 					(alternate "USART2_RX" bidirectional line)
 					(alternate "USART3_DE" bidirectional line)
 					(alternate "USART3_RTS" bidirectional line)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
 			(embedded_fonts no)
@@ -8517,6 +8630,18 @@
 		(uuid 2f79aa05-d60f-4c4d-8e6b-d135b5a4837c)
 	)
 	(rectangle
+		(start 290.83 144.78)
+		(end 325.12 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 378d1453-02c1-49c4-9f30-41a15b9d9b5a)
+	)
+	(rectangle
 		(start 17.78 184.15)
 		(end 71.12 205.74)
 		(stroke
@@ -9240,13 +9365,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 200.66) (xy 52.07 200.66)
+			(xy 29.21 266.7) (xy 34.29 266.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0570b58e-aca6-41c0-abbf-31dbd99d47af")
+		(uuid "06b23e7d-23fc-4e6d-94a8-021b04a2ab0e")
 	)
 	(wire
 		(pts
@@ -9660,6 +9785,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 261.62) (xy 34.29 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2032c44b-daa2-4ad9-8eeb-6aba0473b75d")
+	)
+	(wire
+		(pts
 			(xy 64.77 152.4) (xy 64.77 154.94)
 		)
 		(stroke
@@ -9707,16 +9842,6 @@
 			(type default)
 		)
 		(uuid "27a54614-b800-4b69-9ad5-518e31c6d865")
-	)
-	(wire
-		(pts
-			(xy 29.21 264.16) (xy 34.29 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27b818ca-a0ff-4134-89bc-42a9aa92b1f4")
 	)
 	(wire
 		(pts
@@ -9920,16 +10045,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 261.62) (xy 34.29 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34393488-e871-43b4-8f13-87d48a7cdf96")
-	)
-	(wire
-		(pts
 			(xy 252.73 38.1) (xy 254 38.1)
 		)
 		(stroke
@@ -9990,16 +10105,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 271.78) (xy 34.29 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "374ad7cb-8f98-4a09-910e-877ad3420243")
-	)
-	(wire
-		(pts
 			(xy 265.43 259.08) (xy 265.43 257.81)
 		)
 		(stroke
@@ -10047,6 +10152,16 @@
 			(type default)
 		)
 		(uuid "39627434-4748-480f-92b9-d4c4ae289b54")
+	)
+	(wire
+		(pts
+			(xy 52.07 200.66) (xy 55.88 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b57e604-84ae-4e19-b66c-a5c6bbf8e3e2")
 	)
 	(wire
 		(pts
@@ -10247,6 +10362,16 @@
 			(type default)
 		)
 		(uuid "4cc34ec1-6df5-4fbd-8008-23bbea50cc46")
+	)
+	(wire
+		(pts
+			(xy 29.21 271.78) (xy 34.29 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5a20d4-c9f0-451b-a7b9-35bcc14ee309")
 	)
 	(wire
 		(pts
@@ -10700,6 +10825,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 264.16) (xy 34.29 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679fc682-f963-486a-a41d-dc23c50ea21e")
+	)
+	(wire
+		(pts
 			(xy 49.53 41.91) (xy 55.88 41.91)
 		)
 		(stroke
@@ -10757,6 +10892,16 @@
 			(type default)
 		)
 		(uuid "6d256263-8e38-467d-899b-0c71f9e58388")
+	)
+	(wire
+		(pts
+			(xy 29.21 269.24) (xy 34.29 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d25c1da-6a83-4f16-b748-a3fba766f9d9")
 	)
 	(wire
 		(pts
@@ -11620,16 +11765,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 266.7) (xy 34.29 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a845d879-ebb2-4eeb-827e-8f171a7f883d")
-	)
-	(wire
-		(pts
 			(xy 218.44 99.06) (xy 222.25 99.06)
 		)
 		(stroke
@@ -12010,6 +12145,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 198.12) (xy 55.88 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf200fd8-2224-442b-b6dd-614d9ae88838")
+	)
+	(wire
+		(pts
 			(xy 113.03 162.56) (xy 118.11 162.56)
 		)
 		(stroke
@@ -12117,16 +12262,6 @@
 			(type default)
 		)
 		(uuid "c6d5789e-b7ae-4bbd-82cc-46b835bcc64a")
-	)
-	(wire
-		(pts
-			(xy 55.88 198.12) (xy 52.07 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d463d8-f724-4567-99eb-033cb1eb9b59")
 	)
 	(wire
 		(pts
@@ -12700,16 +12835,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 269.24) (xy 34.29 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c6d976-e296-4605-bb6c-71bb9a71359b")
-	)
-	(wire
-		(pts
 			(xy 232.41 267.97) (xy 232.41 266.7)
 		)
 		(stroke
@@ -12978,6 +13103,16 @@
 		)
 		(uuid "217a07bd-ccd6-4f4e-b99f-360eeb06ade1")
 	)
+	(label "UART4_RX"
+		(at 256.54 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "290e8a02-72ca-486f-a097-1864b1f45006")
+	)
 	(label "I2C1_SCL"
 		(at 133.35 236.22 0)
 		(effects
@@ -13047,16 +13182,6 @@
 			(justify left bottom)
 		)
 		(uuid "66e5c2f7-2d66-431e-9aa2-20adfbc9cb68")
-	)
-	(label "UART4_TX"
-		(at 256.54 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bac4160-229b-49b3-b78e-ee11495ed3f1")
 	)
 	(label "SPI1_MOSI"
 		(at 267.97 271.78 0)
@@ -13138,15 +13263,15 @@
 		)
 		(uuid "c3babbd5-bbad-4f4b-a3f5-13791ad0475f")
 	)
-	(label "UART4_RX"
-		(at 256.54 201.93 0)
+	(label "NET_S"
+		(at 172.72 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cb1daeb0-1ce7-464e-bd8c-e6d980b7da77")
+		(uuid "caa55ea0-c2d0-42a9-8c54-8006d042e901")
 	)
 	(label "UART4_TX"
 		(at 179.07 195.58 0)
@@ -13157,6 +13282,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf746c48-3c45-4147-82f3-2ec4c28bfbfb")
+	)
+	(label "UART4_TX"
+		(at 256.54 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e600f43a-7496-4938-ab1c-0806d9b11852")
 	)
 	(label "TIM_CH2"
 		(at 179.07 218.44 0)
@@ -13300,7 +13435,7 @@
 	)
 	(global_label "OLED_SDA"
 		(shape input)
-		(at 34.29 264.16 0)
+		(at 34.29 269.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13310,7 +13445,7 @@
 		)
 		(uuid "0afa56b2-81ad-4ce1-b8a5-37233f811860")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.5885 264.16 0)
+			(at 46.5885 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13479,7 @@
 	)
 	(global_label "ENCODER_BTN"
 		(shape input)
-		(at 34.29 266.7 0)
+		(at 34.29 261.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13354,7 +13489,7 @@
 		)
 		(uuid "0c2be748-44dc-441a-b62f-ffc0afa1bfaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5799 266.7 0)
+			(at 50.5799 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13894,7 +14029,7 @@
 	)
 	(global_label "ENCODER_B"
 		(shape input)
-		(at 34.29 269.24 0)
+		(at 34.29 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13904,7 +14039,7 @@
 		)
 		(uuid "51421f6d-4132-4a2b-9f6d-b07af876f471")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.2818 269.24 0)
+			(at 48.2818 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14092,7 +14227,7 @@
 	)
 	(global_label "DEBUG_JTCK_SWCLK"
 		(shape input)
-		(at 52.07 198.12 180)
+		(at 52.07 200.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14102,7 +14237,7 @@
 		)
 		(uuid "6c2211ac-5db5-4df0-9857-bfa2171627b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1559 198.12 0)
+			(at 30.1559 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +14381,7 @@
 	)
 	(global_label "DEBUG_JTMS_SWDIO"
 		(shape input)
-		(at 52.07 200.66 180)
+		(at 52.07 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14256,7 +14391,7 @@
 		)
 		(uuid "85e849da-d0df-4459-92c2-49f9f6dc7322")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.3978 200.66 0)
+			(at 30.3978 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,7 +14821,7 @@
 	)
 	(global_label "OLED_SCL"
 		(shape input)
-		(at 34.29 261.62 0)
+		(at 34.29 271.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14696,7 +14831,7 @@
 		)
 		(uuid "caa4ac33-350a-443c-aad5-3d9c06274047")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.528 261.62 0)
+			(at 46.528 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +14953,7 @@
 	)
 	(global_label "ENCODER_A"
 		(shape input)
-		(at 34.29 271.78 0)
+		(at 34.29 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14828,7 +14963,7 @@
 		)
 		(uuid "ed66c18d-3bb0-4253-9209-14b1776678d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.1004 271.78 0)
+			(at 48.1004 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14905,6 +15040,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 309.88 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003f09f7-2111-4c6b-95fc-25f1516a1956")
+		(property "Reference" "H3"
+			(at 312.42 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 312.42 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 309.88 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 309.88 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22ebf5ff-675a-4862-b199-3cbbdde1e302")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_9")
 		(lib_id "power:+3V3")
 		(at 251.46 195.58 0)
@@ -14915,7 +15118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "023afac9-c51a-423f-9e23-1f0370b048a1")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR044"
 			(at 251.46 199.39 0)
 			(effects
 				(font
@@ -14966,7 +15169,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR060")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -14982,7 +15185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02dc7851-cb00-4c2b-91ac-5593cfeb324a")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 132.08 46.9899 0)
 			(effects
 				(font
@@ -15036,7 +15239,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15051,7 +15254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "032023b5-82a6-4aaa-ac7c-891ac62666cf")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 93.98 200.66 0)
 			(effects
 				(font
@@ -15103,7 +15306,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -15119,7 +15322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05963109-eca1-48a0-992e-657ca51de202")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR06"
 			(at 60.96 58.42 0)
 			(effects
 				(font
@@ -15169,7 +15372,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR034")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15184,7 +15387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05ef108a-cd0a-49bf-b5e0-6252a69a13f4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 242.57 266.7 0)
 			(effects
 				(font
@@ -15234,7 +15437,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -15251,7 +15454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "065baffb-a633-4e21-99f8-388f4c507d10")
-		(property "Reference" "C15"
+		(property "Reference" "C19"
 			(at 228.6 175.2599 0)
 			(effects
 				(font
@@ -15305,7 +15508,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C15")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15322,7 +15525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06756715-b7e1-4835-ad11-9607fe5ce076")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 272.415 163.83 0)
 			(effects
 				(font
@@ -15374,7 +15577,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -15390,7 +15593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d55179-108c-4ccc-b5fc-186494bbc42c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR048"
 			(at 102.87 223.52 0)
 			(effects
 				(font
@@ -15441,7 +15644,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR025")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -15457,7 +15660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0734c804-78aa-46e9-b75f-341773d9b6d6")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -15507,7 +15710,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -15523,7 +15726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08015387-1f90-4ae5-8cc7-54e8334901a7")
-		(property "Reference" "J15"
+		(property "Reference" "J8"
 			(at 274.32 199.3899 0)
 			(effects
 				(font
@@ -15583,7 +15786,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J15")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -15599,7 +15802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1288154a-46f7-4e03-841b-5df2e808dce4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR08"
 			(at 101.6 59.69 0)
 			(effects
 				(font
@@ -15649,7 +15852,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR02")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -15665,7 +15868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13c7fcd0-8044-41c4-927f-d2dc4189a183")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 105.41 90.17 0)
 			(effects
 				(font
@@ -15715,7 +15918,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15731,7 +15934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16f72ed7-0a1f-42bc-a8ce-e6ab9d147a1c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 196.85 55.88 0)
 			(effects
 				(font
@@ -15781,7 +15984,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15798,7 +16001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "188dd2f6-4da4-40bb-b7a4-7a4becb27d67")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 69.85 223.52 0)
 			(effects
 				(font
@@ -15849,7 +16052,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -15865,7 +16068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6ebcfc-717c-44c0-a768-1dbe4bb180c1")
-		(property "Reference" "R16"
+		(property "Reference" "R22"
 			(at 105.41 209.5499 0)
 			(effects
 				(font
@@ -15919,7 +16122,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R16")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15935,7 +16138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7407d9-3dd2-4dfd-9f03-b8f3aaf54508")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 257.81 214.63 0)
 			(effects
 				(font
@@ -16001,7 +16204,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -16018,7 +16221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2067faa2-ffcb-44c3-b9cb-dd8de9333304")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR042"
 			(at 26.67 193.04 0)
 			(effects
 				(font
@@ -16069,7 +16272,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR063")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16168,7 +16371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24c4efdb-2a5d-42c7-b714-177925903af3")
-		(property "Reference" "C24"
+		(property "Reference" "C20"
 			(at 255.27 175.2599 0)
 			(effects
 				(font
@@ -16222,7 +16425,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C24")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -16237,7 +16440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25b421d1-2f2d-4425-a4af-fcdd60e85978")
-		(property "Reference" "J16"
+		(property "Reference" "J6"
 			(at 63.5 196.596 0)
 			(effects
 				(font
@@ -16298,7 +16501,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J16")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -16315,7 +16518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "260be37a-87a0-4d68-8c5b-f6ea1d6c9b97")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 259.08 187.96 0)
 			(effects
 				(font
@@ -16365,7 +16568,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16381,7 +16584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "262e5fda-ef26-44f4-8b6e-458d968a8e7b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 116.84 90.17 0)
 			(effects
 				(font
@@ -16431,7 +16634,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16447,7 +16650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284b0c69-34d8-4e07-bea5-91b161a8831a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -16497,7 +16700,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16512,7 +16715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28c9c6ca-533a-426a-8a56-bffc0458c7c7")
-		(property "Reference" "R21"
+		(property "Reference" "R6"
 			(at 276.098 43.18 0)
 			(effects
 				(font
@@ -16566,7 +16769,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R21")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16583,7 +16786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29ebce85-99ea-40fc-8fcb-3c6252aba7a0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR043"
 			(at 26.67 200.66 0)
 			(effects
 				(font
@@ -16633,7 +16836,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR064")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16649,7 +16852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33457b2c-5d6a-4a6c-8264-fae50021272c")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 157.48 83.8199 0)
 			(effects
 				(font
@@ -16703,7 +16906,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -16718,7 +16921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3424b5c6-9714-4143-a5a5-543a57a73d26")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 106.934 93.98 0)
 			(effects
 				(font
@@ -16772,7 +16975,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16788,7 +16991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3575c12f-d20a-4c9c-96da-cb7039f60b97")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR011"
 			(at 26.67 71.12 0)
 			(effects
 				(font
@@ -16838,7 +17041,73 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR01")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 302.26 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37198991-a6e8-4d4b-9800-d25b3999ba53")
+		(property "Reference" "#PWR028"
+			(at 302.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 302.26 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01624319-617c-4081-bfe6-07f7acd3e33e")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16854,7 +17123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37fefad8-8c60-4b89-88dd-5618ea90ea1d")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR032"
 			(at 90.17 170.18 0)
 			(effects
 				(font
@@ -16904,7 +17173,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR037")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16921,7 +17190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38303cb3-54fa-4580-a7ec-7b9463afb042")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR041"
 			(at 161.29 189.23 0)
 			(effects
 				(font
@@ -16972,7 +17241,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR018")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16988,7 +17257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39d23308-e4c8-41b5-ade9-b375eaecf5a4")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR060"
 			(at 54.61 269.24 0)
 			(effects
 				(font
@@ -17038,7 +17307,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR048")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -17054,7 +17323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39e43968-8159-4306-8321-bde04b636e0f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR010"
 			(at 128.27 59.69 0)
 			(effects
 				(font
@@ -17104,7 +17373,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR04")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -17120,7 +17389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a372eb2-7aac-48a4-8272-53eba6db1bbe")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 180.34 158.7562 0)
 			(effects
 				(font
@@ -17174,7 +17443,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17190,7 +17459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba25ce6-c1d2-4711-950c-1cce5edce666")
-		(property "Reference" "C17"
+		(property "Reference" "C9"
 			(at 78.74 156.2099 0)
 			(effects
 				(font
@@ -17244,7 +17513,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C17")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17260,7 +17529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bbe1ee3-6d1d-4b96-a64e-91a3e2f890db")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 321.31 27.9399 0)
 			(effects
 				(font
@@ -17314,7 +17583,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -17330,7 +17599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3edefb51-0323-4b68-8562-f21f85a56a12")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 55.88 241.3 0)
 			(effects
 				(font
@@ -17381,7 +17650,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -17396,7 +17665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "422eed30-6e97-45f0-be6f-d6990e0ccceb")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 129.794 93.98 0)
 			(effects
 				(font
@@ -17450,7 +17719,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -17466,7 +17735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d33491-72b0-4b7e-b8e9-81d7b181c491")
-		(property "Reference" "J12"
+		(property "Reference" "J14"
 			(at 285.75 264.1599 0)
 			(effects
 				(font
@@ -17532,7 +17801,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J12")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -17548,7 +17817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "437f27d0-4cb7-47eb-93ac-21062bc8d346")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR056"
 			(at 116.84 255.27 0)
 			(effects
 				(font
@@ -17598,7 +17867,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR022")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -17613,7 +17882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45f465f7-a81a-451c-a023-b0fc5a634409")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR04"
 			(at 274.32 55.88 0)
 			(effects
 				(font
@@ -17663,7 +17932,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR050")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -17746,7 +18015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "497c7cd1-228e-482b-8ddc-e7c4faa53038")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 148.59 46.9899 0)
 			(effects
 				(font
@@ -17800,7 +18069,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -17815,7 +18084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "498315cf-e7f3-4f5a-9c2d-6d4b11642d35")
-		(property "Reference" "C11"
+		(property "Reference" "C23"
 			(at 224.79 269.24 0)
 			(effects
 				(font
@@ -17869,7 +18138,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C11")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -18023,7 +18292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4abd91ba-1862-41cc-bc62-bac9afa03d10")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 143.51 265.4299 0)
 			(effects
 				(font
@@ -18077,7 +18346,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -18093,7 +18362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b759773-bfa6-4376-a6c2-ce22185499eb")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR045"
 			(at 107.95 205.74 0)
 			(effects
 				(font
@@ -18144,7 +18413,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR028")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18161,7 +18430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c032437-cfc9-49fb-bf8b-d9b6a3efcdbf")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR039"
 			(at 266.7 187.96 0)
 			(effects
 				(font
@@ -18211,7 +18480,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18227,7 +18496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4daff0b1-b2d8-4884-aef0-1feb469cce8d")
-		(property "Reference" "J7"
+		(property "Reference" "J13"
 			(at 24.765 279.4 0)
 			(effects
 				(font
@@ -18297,7 +18566,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J7")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -18312,7 +18581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "532deab1-2965-462c-8821-8c65c9c1733b")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 216.662 58.928 90)
 			(effects
 				(font
@@ -18364,7 +18633,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -18380,7 +18649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53fb8687-cce9-44d7-a4d3-c2acead63c68")
-		(property "Reference" "R7"
+		(property "Reference" "R17"
 			(at 173.99 120.6499 0)
 			(effects
 				(font
@@ -18434,7 +18703,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R7")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -18450,7 +18719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5533eaa0-7d40-4e0c-b2c3-274117f085b1")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR062"
 			(at 139.7 279.4 0)
 			(effects
 				(font
@@ -18500,7 +18769,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR023")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -18516,7 +18785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56fd92c6-283d-4bc5-a7e5-f2dcdab9b666")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 166.0241 269.24 0)
 			(effects
 				(font
@@ -18715,7 +18984,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -18800,7 +19069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59211641-edfb-4f88-8b4d-cd6203021e81")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 142.24 186.69 0)
 			(effects
 				(font
@@ -18854,7 +19123,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R15")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -18870,7 +19139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "592f7ae9-9b5d-4ae0-b810-09afcede2110")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR015"
 			(at 265.43 86.36 0)
 			(effects
 				(font
@@ -18920,7 +19189,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR049")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18936,7 +19205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a1f5a2a-30d1-4256-b1da-5cd53fa4b612")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR026"
 			(at 144.78 156.21 0)
 			(effects
 				(font
@@ -18987,7 +19256,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR019")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19002,7 +19271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a37f92a-21e7-485c-9b16-3e6ec2058a30")
-		(property "Reference" "J6"
+		(property "Reference" "J10"
 			(at 21.209 235.966 0)
 			(effects
 				(font
@@ -19057,7 +19326,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J6")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -19073,7 +19342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5da95341-e6dd-43b8-a69c-c9ace35ca02d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR049"
 			(at 111.76 223.52 0)
 			(effects
 				(font
@@ -19124,7 +19393,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR026")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -19140,7 +19409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dbbfdb5-5855-4621-8da9-5b7bedbefe3b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR040"
 			(at 143.51 186.69 0)
 			(effects
 				(font
@@ -19191,7 +19460,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR017")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19206,7 +19475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e12dfc4-4eab-42aa-8f23-874c588abba0")
-		(property "Reference" "R2"
+		(property "Reference" "R14"
 			(at 152.4 105.41 90)
 			(effects
 				(font
@@ -19258,7 +19527,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R2")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -19274,7 +19543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fde9ed8-9a14-4daf-8e7c-9c1f42307665")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 118.11 36.8299 0)
 			(effects
 				(font
@@ -19328,7 +19597,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -19345,7 +19614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60d5aa1c-8abf-46b4-a3a5-a1c722e6896e")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR051"
 			(at 38.1 224.79 0)
 			(effects
 				(font
@@ -19396,7 +19665,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR043")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -19411,7 +19680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63954993-bb24-4eb0-b10b-c81c849e80b0")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 216.662 52.578 90)
 			(effects
 				(font
@@ -19463,7 +19732,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -19479,7 +19748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b7b24b-7ad9-4969-a956-5d583c92bd5a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR020"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -19529,7 +19798,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR05")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -19545,7 +19814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66431a43-f076-4960-a4ae-abebac4b19cc")
-		(property "Reference" "R22"
+		(property "Reference" "R18"
 			(at 105.41 156.2099 0)
 			(effects
 				(font
@@ -19599,7 +19868,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R22")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -19614,7 +19883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68ce4135-47f5-44c9-9be4-de38b63d269e")
-		(property "Reference" "D5"
+		(property "Reference" "D8"
 			(at 63.5 45.7199 90)
 			(effects
 				(font
@@ -19668,7 +19937,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D5")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -19683,7 +19952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69d61103-b2c8-4d23-87f8-f8d5d59048c9")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 118.364 93.98 0)
 			(effects
 				(font
@@ -19737,7 +20006,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -19752,7 +20021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b5cf8ee-23cf-4aed-9fad-5626ea56ee59")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 106.68 166.6874 90)
 			(effects
 				(font
@@ -19806,7 +20075,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -19822,7 +20091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76008210-8702-45ae-90a3-0f919c42ded7")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 90.17 146.05 0)
 			(effects
 				(font
@@ -19877,7 +20146,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -19893,7 +20162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79c13f41-f063-4400-8ec7-086e0f71949c")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 241.3 64.77 0)
 			(effects
 				(font
@@ -19948,7 +20217,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -19963,7 +20232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b8ccec9-5b4d-40b8-a83c-d0a77409d9d6")
-		(property "Reference" "C12"
+		(property "Reference" "C24"
 			(at 245.11 269.8813 0)
 			(effects
 				(font
@@ -20018,7 +20287,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C12")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -20034,7 +20303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c76a010-017e-4cce-821f-792302ae9afa")
-		(property "Reference" "R19"
+		(property "Reference" "R4"
 			(at 77.47 44.196 90)
 			(effects
 				(font
@@ -20086,7 +20355,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R19")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -20102,7 +20371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f59698c-18f0-401e-82ac-59605972b676")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 104.14 38.0999 90)
 			(effects
 				(font
@@ -20156,7 +20425,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -20172,7 +20441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "848292dd-388b-414a-9a1d-e84454f1cea9")
-		(property "Reference" "R6"
+		(property "Reference" "R16"
 			(at 166.37 120.6499 0)
 			(effects
 				(font
@@ -20226,7 +20495,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R6")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -20242,7 +20511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ab6169-7feb-46a4-bdbd-64662c3445ab")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 214.63 35.5599 0)
 			(effects
 				(font
@@ -20296,7 +20565,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -20311,7 +20580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86eaabaf-92d6-49ed-8fe6-b2ef783b0fdf")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR064"
 			(at 237.49 281.94 0)
 			(effects
 				(font
@@ -20361,7 +20630,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR021")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -20378,7 +20647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e94052-157b-4c1f-93b6-9679f77056bb")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 245.745 163.83 0)
 			(effects
 				(font
@@ -20430,7 +20699,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -20446,7 +20715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "890c863e-9230-4af7-89e2-fbb1b443dcb5")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR019"
 			(at 154.94 97.79 0)
 			(effects
 				(font
@@ -20496,7 +20765,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR06")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -20511,7 +20780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a0f5655-ce34-463e-9803-04a8e0d9b1d0")
-		(property "Reference" "J5"
+		(property "Reference" "J9"
 			(at 46.99 233.68 0)
 			(effects
 				(font
@@ -20566,7 +20835,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J5")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -20581,7 +20850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a7e6fb4-e758-4cf8-be76-1a216e89685b")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 284.48 32.0674 90)
 			(effects
 				(font
@@ -20635,7 +20904,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -20650,7 +20919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b6b03fc-969f-4332-a4b8-c51dce565eb4")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 116.84 190.5 0)
 			(effects
 				(font
@@ -20702,7 +20971,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -20789,7 +21058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ccc7e57-1d6e-4c99-a68a-bceca4d4ace9")
-		(property "Reference" "J14"
+		(property "Reference" "J12"
 			(at 109.22 243.8399 0)
 			(effects
 				(font
@@ -20843,7 +21112,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J14")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -20860,7 +21129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d68209f-1194-4b90-84d3-a9a299c1983b")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR024"
 			(at 240.03 153.67 0)
 			(effects
 				(font
@@ -20911,7 +21180,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR031")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20927,7 +21196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93d5ed06-d596-47b6-96b1-8e6121dd50d4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR02"
 			(at 312.42 48.26 0)
 			(effects
 				(font
@@ -20977,7 +21246,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR014")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -20993,7 +21262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99a001a2-6b6f-4822-827a-b22ee154f89c")
-		(property "Reference" "D7"
+		(property "Reference" "D9"
 			(at 267.97 71.1199 90)
 			(effects
 				(font
@@ -21047,7 +21316,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D7")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -21063,7 +21332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a87f3bc-9558-4576-88be-a880cea6c096")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR01"
 			(at 297.18 48.26 0)
 			(effects
 				(font
@@ -21113,7 +21382,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR035")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -21130,7 +21399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af39cfb-a043-490c-a762-5c7f24a53e6b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR05"
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -21180,7 +21449,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR033")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -21196,7 +21465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bee85b9-4142-4f54-afe4-7a162ccf0615")
-		(property "Reference" "C21"
+		(property "Reference" "C16"
 			(at 190.5 158.7562 0)
 			(effects
 				(font
@@ -21250,7 +21519,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C21")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -21266,7 +21535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cc08b25-5ff2-4db0-afb4-6f537c819799")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR023"
 			(at 123.19 152.4 0)
 			(effects
 				(font
@@ -21317,7 +21586,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR039")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -21333,7 +21602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d6b5363-cbe9-4619-bdc4-0bf33f951ef3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR057"
 			(at 34.29 256.54 0)
 			(effects
 				(font
@@ -21384,7 +21653,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR047")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -21399,7 +21668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e16d9d4-2f32-4e64-bdc1-3d718f9e3c18")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 147.32 159.3913 0)
 			(effects
 				(font
@@ -21453,7 +21722,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -21469,7 +21738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f4ad2b5-3ccc-4555-ad7d-8b7cfd46062a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR052"
 			(at 29.21 241.3 0)
 			(effects
 				(font
@@ -21520,7 +21789,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR045")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -21536,7 +21805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f65a931-6e52-47e2-be57-e082d259205a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 118.11 170.18 0)
 			(effects
 				(font
@@ -21586,7 +21855,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21602,7 +21871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a241979b-2f96-47ad-ae68-f93ada8fcfcd")
-		(property "Reference" "C23"
+		(property "Reference" "C18"
 			(at 210.82 158.7562 0)
 			(effects
 				(font
@@ -21656,7 +21925,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C23")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -21672,7 +21941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a35b006d-8f1c-4090-bdec-47f173469707")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 152.4 120.65 90)
 			(effects
 				(font
@@ -21724,7 +21993,75 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R3")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 302.26 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a39285b2-a5ad-4305-8d9d-81f1cb9a5199")
+		(property "Reference" "H2"
+			(at 304.8 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 304.8 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 302.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 302.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee5f08b-cbc9-443b-acf4-e7c958712b33")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -21741,7 +22078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3c54acb-a0f3-486a-a55b-0a3a3b1093f2")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR037"
 			(at 240.03 187.96 0)
 			(effects
 				(font
@@ -21791,7 +22128,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR029")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -21905,7 +22242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4480954-bdfb-4c8f-acba-6ead1c4fd602")
-		(property "Reference" "C20"
+		(property "Reference" "C8"
 			(at 67.31 156.2162 0)
 			(effects
 				(font
@@ -21959,7 +22296,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C20")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -21975,7 +22312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58c0e3c-98db-402e-b0a5-fba956541369")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 195.58 234.9499 0)
 			(effects
 				(font
@@ -22029,7 +22366,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -22046,7 +22383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6cce4a4-d9f8-4622-bc27-fde01a7dc7f2")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR025"
 			(at 266.7 153.67 0)
 			(effects
 				(font
@@ -22097,7 +22434,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR041")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -22113,7 +22450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6fd20a6-0939-4322-8040-c64adafff94c")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 148.59 36.8299 0)
 			(effects
 				(font
@@ -22167,7 +22504,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -22250,7 +22587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a92d6492-6f9d-4eac-af0d-f2521b794791")
-		(property "Reference" "J13"
+		(property "Reference" "J7"
 			(at 240.03 199.3899 0)
 			(effects
 				(font
@@ -22313,7 +22650,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J13")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -22496,7 +22833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6ae630-dc42-44c4-a7f5-a643f6934e61")
-		(property "Reference" "C19"
+		(property "Reference" "C11"
 			(at 127 156.2099 0)
 			(effects
 				(font
@@ -22550,7 +22887,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C19")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -22566,7 +22903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f4c703-5551-4568-934b-81f372ac26ca")
-		(property "Reference" "C9"
+		(property "Reference" "C14"
 			(at 170.18 158.7562 0)
 			(effects
 				(font
@@ -22620,7 +22957,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C9")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -22637,7 +22974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1192d5d-6c45-4f8d-a989-44503111967e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR046"
 			(at 251.46 207.01 0)
 			(effects
 				(font
@@ -22687,7 +23024,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR059")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -22704,7 +23041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3382c55-55e5-477b-ac41-5c4947f7e364")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 265.43 269.24 0)
 			(effects
 				(font
@@ -22754,7 +23091,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -22770,7 +23107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b81a453a-fa1c-4316-a40f-e19b8377cb91")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR012"
 			(at 34.29 71.12 0)
 			(effects
 				(font
@@ -22820,7 +23157,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR032")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22837,7 +23174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbe0f2e6-acfe-47e0-b0ac-89c6df6cb1c5")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 269.24 242.57 0)
 			(effects
 				(font
@@ -22887,7 +23224,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -22903,7 +23240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd89eadb-710d-4224-ad0d-5f8477219a7d")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 214.63 105.41 90)
 			(effects
 				(font
@@ -22955,7 +23292,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -22971,7 +23308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4dcc454-aa52-42dc-a74c-ee53b5e1a148")
-		(property "Reference" "C18"
+		(property "Reference" "C10"
 			(at 115.57 156.2162 0)
 			(effects
 				(font
@@ -23025,7 +23362,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C18")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -23040,7 +23377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6212680-4ef1-4d07-932b-2187241e1dfa")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR035"
 			(at 102.87 177.8 0)
 			(effects
 				(font
@@ -23090,7 +23427,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR052")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23107,7 +23444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9d9461f-63e3-4934-ae64-f7ac00c5458a")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR058"
 			(at 265.43 261.62 0)
 			(effects
 				(font
@@ -23158,7 +23495,73 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR061")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 317.5 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca378593-08f7-41d8-bb46-a9a3a9329652")
+		(property "Reference" "#PWR030"
+			(at 317.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 317.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 317.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5631b9a2-0811-43e7-806f-560e954a538e")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -23174,7 +23577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc369830-b58e-4d20-8d6d-b0182cdb58a7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR021"
 			(at 189.23 127 0)
 			(effects
 				(font
@@ -23224,7 +23627,75 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR08")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 317.5 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd66bdb3-d3c0-4406-b90e-20e7d76211b8")
+		(property "Reference" "H4"
+			(at 320.04 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 320.04 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 317.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 317.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 317.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39c6c292-dc6c-4e58-90f3-27dfdaea99a0")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -23241,7 +23712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdc55c5d-324a-48c3-8b20-ccc8745c6664")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR047"
 			(at 86.36 205.74 0)
 			(effects
 				(font
@@ -23292,7 +23763,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR027")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -23386,7 +23857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cebd1717-1d2a-431c-9e18-904d306032a6")
-		(property "Reference" "C22"
+		(property "Reference" "C17"
 			(at 200.66 158.7562 0)
 			(effects
 				(font
@@ -23440,7 +23911,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C22")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -23456,7 +23927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d04778f1-b684-4473-99ab-fb362f89ee15")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 201.93 36.83 90)
 			(effects
 				(font
@@ -23508,7 +23979,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R10")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -23524,7 +23995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d080c718-1e5b-45b9-baff-b67b3162f349")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -23574,7 +24045,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -23590,7 +24061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d095fb3b-75cd-4a09-84cb-959de2c3c349")
-		(property "Reference" "D4"
+		(property "Reference" "D7"
 			(at 53.34 45.7199 90)
 			(effects
 				(font
@@ -23644,7 +24115,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D4")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -23660,7 +24131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbcbe8eb-69f7-4abc-a0ad-bfb3cbd9ca36")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR063"
 			(at 161.29 279.4 0)
 			(effects
 				(font
@@ -23711,7 +24182,75 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR024")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 294.64 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd622fa6-1a11-4966-91c1-52c36c712ea0")
+		(property "Reference" "H1"
+			(at 297.18 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 297.18 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 294.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 294.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 294.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75f6fae0-a7a7-42e9-b9e0-ef8174a786ec")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -23726,7 +24265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e023baec-23c4-496f-99a9-c159b4d1824b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR022"
 			(at 170.18 134.62 0)
 			(effects
 				(font
@@ -23776,7 +24315,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR07")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -23792,7 +24331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2672dc5-2f39-4780-8ceb-6cf1601833a5")
-		(property "Reference" "D8"
+		(property "Reference" "D1"
 			(at 125.73 23.8124 90)
 			(effects
 				(font
@@ -23846,7 +24385,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D8")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -23862,7 +24401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a045ea-7516-42aa-9218-c2df77e5367f")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 180.34 36.8299 0)
 			(effects
 				(font
@@ -23916,7 +24455,73 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R9")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 309.88 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4a12e32-f0b1-4d8d-a5ba-c7ef76a6214a")
+		(property "Reference" "#PWR029"
+			(at 309.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 309.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a7bd30-c808-4eaf-a73d-3075e36de74d")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -23932,7 +24537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4a279d5-dc99-47a2-932a-33f7926fd59d")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 130.81 37.1474 90)
 			(effects
 				(font
@@ -23986,7 +24591,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -24002,7 +24607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5d1a6cc-6d98-4c2d-b876-1ccb194222b1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 177.8 173.99 0)
 			(effects
 				(font
@@ -24052,7 +24657,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -24068,7 +24673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5f719af-44de-4298-880d-c79f8584f357")
-		(property "Reference" "C14"
+		(property "Reference" "C21"
 			(at 115.57 210.8199 0)
 			(effects
 				(font
@@ -24122,7 +24727,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C14")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -24139,7 +24744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6393bad-4e1c-4570-9fe5-2b5a7527e834")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 232.41 187.96 0)
 			(effects
 				(font
@@ -24189,7 +24794,73 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR030")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eacc0d71-ca3b-4093-8192-9f78192684bc")
+		(property "Reference" "#PWR027"
+			(at 294.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0463666-13bc-4a62-bfec-4bad50841eeb")
+		)
+		(instances
+			(project "ICC_Circuit"
+				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -24205,7 +24876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaeda4d3-f393-47fb-a31f-c3e5f39184c5")
-		(property "Reference" "R18"
+		(property "Reference" "R1"
 			(at 77.47 34.036 90)
 			(effects
 				(font
@@ -24257,7 +24928,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R18")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -24273,7 +24944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb380857-b14f-4299-9d15-7c336c751df4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 191.77 76.2 0)
 			(effects
 				(font
@@ -24324,7 +24995,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -24340,7 +25011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb8cf611-5baa-4b23-95ed-f4dffae9f4be")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 219.71 78.74 0)
 			(effects
 				(font
@@ -24390,7 +25061,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -24405,7 +25076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecf9d324-ce63-408e-81a6-4d816aeb3b4d")
-		(property "Reference" "D11"
+		(property "Reference" "D6"
 			(at 261.62 52.07 0)
 			(effects
 				(font
@@ -24475,7 +25146,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "D11")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -24558,7 +25229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f40d38da-a25b-4c00-9d54-b17c0812e3a8")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR031"
 			(at 69.85 170.18 0)
 			(effects
 				(font
@@ -24608,7 +25279,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR036")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -24624,7 +25295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4fc34cc-0bad-462b-a7c7-4d533b6428ae")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 187.96 247.65 0)
 			(effects
 				(font
@@ -24674,7 +25345,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -24759,7 +25430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d602aa-184a-4957-9139-20f187e06db2")
-		(property "Reference" "C16"
+		(property "Reference" "C1"
 			(at 300.99 32.1309 0)
 			(effects
 				(font
@@ -24813,7 +25484,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C16")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -24828,7 +25499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9385584-d418-431c-abdf-8b024902833e")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 242.57 156.2099 0)
 			(effects
 				(font
@@ -24882,7 +25553,7 @@
 		(instances
 			(project ""
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -24967,7 +25638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb0a02dc-4a4f-4f12-b101-7932c53fa3c5")
-		(property "Reference" "C8"
+		(property "Reference" "C13"
 			(at 160.02 158.7563 0)
 			(effects
 				(font
@@ -25021,7 +25692,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -25036,7 +25707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe10fa8b-4b0d-47b3-9c62-7549e4a62334")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 216.662 65.278 90)
 			(effects
 				(font
@@ -25088,7 +25759,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -25103,7 +25774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff3af5fd-3ece-4e6f-9e3a-0d94b0875f8f")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 39.37 15.24 0)
 			(effects
 				(font
@@ -25200,7 +25871,7 @@
 		(instances
 			(project "ICC_Circuit"
 				(path "/6804ea53-4b9c-4c75-8f5e-d715f35195e0"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)

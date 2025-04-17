@@ -12978,16 +12978,6 @@
 		)
 		(uuid "217a07bd-ccd6-4f4e-b99f-360eeb06ade1")
 	)
-	(label "UART4_RX"
-		(at 256.54 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "290e8a02-72ca-486f-a097-1864b1f45006")
-	)
 	(label "I2C1_SCL"
 		(at 133.35 236.22 0)
 		(effects
@@ -13057,6 +13047,16 @@
 			(justify left bottom)
 		)
 		(uuid "66e5c2f7-2d66-431e-9aa2-20adfbc9cb68")
+	)
+	(label "UART4_TX"
+		(at 256.54 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bac4160-229b-49b3-b78e-ee11495ed3f1")
 	)
 	(label "SPI1_MOSI"
 		(at 267.97 271.78 0)
@@ -13138,6 +13138,16 @@
 		)
 		(uuid "c3babbd5-bbad-4f4b-a3f5-13791ad0475f")
 	)
+	(label "UART4_RX"
+		(at 256.54 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb1daeb0-1ce7-464e-bd8c-e6d980b7da77")
+	)
 	(label "UART4_TX"
 		(at 179.07 195.58 0)
 		(effects
@@ -13147,16 +13157,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf746c48-3c45-4147-82f3-2ec4c28bfbfb")
-	)
-	(label "UART4_TX"
-		(at 256.54 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e600f43a-7496-4938-ab1c-0806d9b11852")
 	)
 	(label "TIM_CH2"
 		(at 179.07 218.44 0)
